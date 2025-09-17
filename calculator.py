@@ -3,28 +3,38 @@ import math
 
 
 def calculate(x, operand, y=None):# y= none for the sqrt operation
-    if operand == "+":
-        return x + y
-    elif operand == "-":
-        return x - y
-    elif operand == "*":
-        return x * y
-    elif operand == "/":
-        # can't divide by zero
-        if y == 0:
-            return "Error: Division by zero"
-        return x / y
-    # not a operand
-    ## these were made in feature
-    elif operand == '^':
-        return x ** y
-    elif operand == 'sqrt':
+    if not isinstance(x, (int, float)):
+        return "Error: First input must be a number"
+    
+    if operand == 'sqrt':
         if x >= 0:
             return math.sqrt(x)
         else:
             return "Error: cannot sqrt negative numbers"
     else:
-        return "Invalid operator"
+        # For operations that need y, check if y exists and is valid
+        if y is None:
+            return f"Error: Operator '{operand}' requires two operands"
+        if not isinstance(y, (int, float)):
+            return "Error: Second input must be a number"
+            
+        if operand == "+":
+            return x + y
+        elif operand == "-":
+            return x - y
+        elif operand == "*":
+            return x * y
+        elif operand == "/":
+            # can't divide by zero
+            if y == 0:
+                return "Error: Division by zero"
+            return x / y
+        # not a operand
+        ## these were made in feature
+        elif operand == '^':
+            return x ** y
+        else:
+            return "Invalid operator"
 
 
 
