@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 I am so over this Not fun
 This is taking too long
 
