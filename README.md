@@ -1,4 +1,4 @@
-Fun Calculator:/
+Not fun
 
 Maxwell Olson-Burkman
 1296272
