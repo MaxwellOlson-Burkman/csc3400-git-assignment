@@ -1,6 +1,4 @@
-Your name and student ID
-Brief description of what this repository will contain
-4. Add and commit the README file with the message "Initial commit: Add project README
+Differnt Title
 
 Maxwell Olson-Burkman
 1296272
@@ -28,8 +26,8 @@ Usage Examples
 to run-> python calculator.py number (operand(+-/*^ or sqrt)) number
 like -> python calculator.py 5 + 2
 outputs 7.0
-python calculator 3 * 4 
-oytputs 12.0
+python calculator 3 * 4
+outputs 12.0
 
 Features-> 1. A calculator that outputs float numers if input properly 2. throws errors if inputted wrong 3. sqrt works 
 
