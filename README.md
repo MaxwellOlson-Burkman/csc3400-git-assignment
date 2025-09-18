@@ -1,6 +1,8 @@
 I am so over this Not fun
 This is taking too long
 
+Project Status: Complete.
+Version release v1.0.0
 
 Maxwell Olson-Burkman
 1296272
