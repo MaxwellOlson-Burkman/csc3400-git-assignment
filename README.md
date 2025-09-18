@@ -1,4 +1,7 @@
-I am so over this
+<<<<<<< HEAD
+I am so over this Not fun
+This is taking too long
+
 
 Maxwell Olson-Burkman
 1296272
